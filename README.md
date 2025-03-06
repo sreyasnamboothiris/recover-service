@@ -1,11 +1,6 @@
 # Recover Project
 
 This is a React-based project template that includes multiple components such as Home, Service, About, Contact Us, and more. It also includes fixed WhatsApp and Call buttons for quick contact.
-<video width="600" controls>
-  <source src="./Screen Recording 2025-02-24 160934.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-ffmpeg -i "Screen Recording 2025-02-24 160934.mp4" -vf "fps=10,scale=600:-1:flags=lanczos" -c:v gif output.gif
 
 ## Features
 
