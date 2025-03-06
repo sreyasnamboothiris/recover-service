@@ -5,6 +5,8 @@ This is a React-based project template that includes multiple components such as
   <source src="./Screen Recording 2025-02-24 160934.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+ffmpeg -i "Screen Recording 2025-02-24 160934.mp4" -vf "fps=10,scale=600:-1:flags=lanczos" -c:v gif output.gif
+
 ## Features
 
 - **Header:** Navigation bar for the website
